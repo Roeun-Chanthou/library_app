@@ -1,0 +1,8 @@
+import 'package:get/get.dart';
+import 'package:library_norton_app/presentation/views/profile/profile_controller.dart';
+class ProfileBinding extends Bindings {
+  @override
+  void dependencies() {
+    Get.lazyPut(() => ProfileController());
+  }
+}
