@@ -1,0 +1,5 @@
+class RoutesApp {
+  RoutesApp._();
+
+  
+}
